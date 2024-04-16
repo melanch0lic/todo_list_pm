@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage> {
                           Navigator.of(context).pop();
                         }
                       },
-                      controller: _controller..text = );
+                      controller: _controller..text = '');
                 });
           }),
     );
